@@ -8,10 +8,10 @@ import io
 import zipfile
 import warnings
 warnings.filterwarnings('ignore')
-st.set_page_config(page_title="Dashboard OS Claim 2024", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="Dashboard Outstanding & Paid Claim", page_icon=":bar_chart:", layout="wide")
 
 # Tampilkan judul langsung di bawah gambar
-st.markdown("# 📊 Dashboard OS Claim")
+st.markdown("# 📊 Dashboard Outstanding & Paid Claim")
 st.markdown("##### 📍 For better experience, please click left side arrow on the screen < after using the filter")
 
 # Load uploaded file if available
